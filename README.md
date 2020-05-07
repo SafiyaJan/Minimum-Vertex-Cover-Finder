@@ -57,7 +57,7 @@ Approx_VC1 Runtime - 165.024 microsecs
 Approx_VC2 Runtime - 213.865 microsecs
 
 ```
-
+Note - Ensure that you run the executable and the enter the user input in the same format as above.
 
 
 
