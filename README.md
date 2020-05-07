@@ -27,7 +27,7 @@ In order to run the program, firstly, you must clone the repository on your loca
   - Installing GCC - https://gcc.gnu.org/wiki/InstallingGCC
 - You also need to clone the MiniSat SAT Solver into your working directory. This can be done by running the following command under the same project directory:
 
-``` git clone https://github.com/agurfinkel/minisat.git ```
+  ``` git clone https://github.com/agurfinkel/minisat.git ```
 
 
 ## Usage 
