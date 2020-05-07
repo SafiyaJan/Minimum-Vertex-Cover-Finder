@@ -63,6 +63,7 @@ void add_edge(vector<unsigned int> adj_list[], unsigned int u, unsigned int v){ 
 }
 
 
+// removes all edges connected to vertex
 void remove_edge_vc1(vector<unsigned int> adj_list[], unsigned int u, unsigned int v) {
    
    // remove edge from u to v
