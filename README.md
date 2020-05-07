@@ -9,6 +9,7 @@ As mentioned before, the program aims to solve the Vertex Cover problem in 2 way
 - Reduction from Vertex Cover to CNF-SAT
   - A polynomial time reduction is performed on one graphical instance, G, and transformed into a propositional logic formula, F, in Conjunctive Normal Form (CNF). If the formula is satisfiable, the minimum vertex cover can be re-constructed from the satisfiability assignment using a SAT Solver. The reduction is as follows: 
     <img src="CNFSAT Reduction.png" width=600>
+
 Implementation details of these algorithms can be found in the ```solve_vertex_cover.cpp``` file.
 
 ## Getting Started
