@@ -48,8 +48,8 @@ After running the build sequence, the program can be run as follows under the ``
 V 10
 E {<4,8>,<7,0>,<7,5>,<0,9>,<5,6>,<0,1>,<1,7>,<9,2>,<0,2>,<5,1>,<2,5>,<4,3>,<3,5>,<5,4>,<6,9>}
 
-# program output
-CNF-SAT-VC: 0,1,4,5,9
+# program output that shows the Vertex Cover produced by the various algorithms
+CNF-SAT-VC: 0,1,4,5,9         
 APPROX-VC-1: 0,1,4,5,9
 APPROX-VC-2: 0,1,2,3,4,5,7,9
 CNF_SAT_VC Runtime - 37108.7 microsecs
