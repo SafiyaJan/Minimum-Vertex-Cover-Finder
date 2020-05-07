@@ -40,6 +40,23 @@ mkdir build && cd build && cmake ../ && make
 ```
 
 ### Running the Executable
+After running the build sequence, the program can be run as follows under the ```/build``` folder:
+```
+./vertex_cover
+
+# user input
+V 10
+E {<4,8>,<7,0>,<7,5>,<0,9>,<5,6>,<0,1>,<1,7>,<9,2>,<0,2>,<5,1>,<2,5>,<4,3>,<3,5>,<5,4>,<6,9>}
+
+# program output
+CNF-SAT-VC: 0,1,4,5,9
+APPROX-VC-1: 0,1,4,5,9
+APPROX-VC-2: 0,1,2,3,4,5,7,9
+CNF_SAT_VC Runtime - 37108.7 microsecs
+Approx_VC1 Runtime - 165.024 microsecs
+Approx_VC2 Runtime - 213.865 microsecs
+
+```
 
 
 
