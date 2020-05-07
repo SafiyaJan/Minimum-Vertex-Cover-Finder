@@ -25,6 +25,10 @@ In order to run the program, firstly, you must clone the repository on your loca
 - You will also need a C++ compiler in order to compile the program. GCC and Clang are 2 such compilers and either can be used to compile the program
   - Installing Clang - https://clang.llvm.org/get_started.html
   - Installing GCC - https://gcc.gnu.org/wiki/InstallingGCC
+- You also need to clone the MiniSat SAT Solver into your working directory. This can be done by running the following command under the same project directory:
+
+``` git clone https://github.com/agurfinkel/minisat.git ```
+
 
 ## Usage 
 
@@ -33,3 +37,10 @@ In order to run the program, firstly, you must clone the repository on your loca
 Before, the program can be run, it first needs to be built (aka compiled). Run the following command to build the program on you CLI:
 ```
 mkdir build && cd build && cmake ../ && make
+```
+
+### Running the Executable
+
+
+
+
